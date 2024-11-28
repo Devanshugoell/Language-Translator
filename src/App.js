@@ -1,7 +1,11 @@
 import "./App.css";
-
+import Translate from "./components/translate";
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <Translate />
+    </>
+  );
 }
 
 export default App;
